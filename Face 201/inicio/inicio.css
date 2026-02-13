@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+@keyframes aparecer_esquerda {
+    from {
+        transform: translatex(-50rem)
+    }
+
+    to {
+
+    }
+    
+}
+
+header {
+    font-family: "Inter", sans-serif;
+    padding: 1rem;
+    background-color: #51abff;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-size: 1rem;
+}
+
+.link_header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-size: 1rem;
+
+}
+
+.link {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: #ffffff; 
+    transition: 0.2s;
+}
+
+header a:hover {
+    color: #b58855;
+}
+
+
+
+
+
+
+.titulo {
+    font-family: "Inter", sans-serif;
+    width: 50%;
+    padding: 1.4rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+.face{
+    margin-bottom: 5rem;
+    margin-top: 4rem;
+}
+
+.face_cima, .face_baixo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 90%;
+    margin: 3rem auto;
+}
+
+.face_baixo {
+    margin-right: rem;
+}
+
+.texto_face_baixo, .texto_face_cima {
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.imagem_face_cima {
+    margin-right: 2rem; 
+
+}
+
+.face p, .proposito p {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+
+
+
+.fotos {
+    width: 30rem;
+}
+
+
+
+
+.livro {
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%; 
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.livro p {
+    font-size: 2rem; 
+    padding: 1.5rem;
+}
+
+.texto_livro {
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    margin-top: 2rem;
+    border-radius: 10px
+}
+
+
+.titulo_cortico{
+    margin-left: 14.5rem;
+    margin-top: 2rem;
+    font-family: "Inter", sans-serif;
+}
+
+.img_livro {
+    width: 35rem;
+    margin-top: 7rem;
+}
+
+
+
+
+.proposito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 80%;
+    margin: 3rem auto;
+    margin-bottom: 5rem;
+}
+
+.foto_turma {
+    width: 30rem;
+}
+
+.texto_proposito {
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+
+
+
+.turma {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: between;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.turma_texto {
+    font-size: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.turma img {
+    width: 35rem;
+}
+
+.turma p {
+    padding: 1.4rem;
+}
+
+
+
+
+
+
+
+.patrocinio1 img, .patrocinio2 img {
+
+    width: 20rem;
+    padding: 1rem;
+}
+
+.patrocinio1, .patrocinio2 {
+
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    
+
+}
+
+.espaco_patrocinio {
+    margin-bottom: 2rem;        
+}
+
+
+
+footer {
+    font-family: "Inter", sans-serif;
+    padding: 1rem;
+    background-color: #51abff;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-size: 1rem;
+}
+
+footer .insta {
+
+    text-decoration: none;
+    margin-left: 74rem;
+
+}
+
+/*----------------ANIMAÇÔES-----------------*/
+
+.anie {
+    opacity: 0;
+    transform: translateX(-14rem);
+    transition: 1s ease;
+}
+
+.anie.show{
+    opacity: 1;
+    transform: translateX(0)
+}
+
+.anid {
+    opacity: 0;
+    transform: translateX(14rem);
+    transition: 1s ease;
+}
+
+.anid.show{
+    opacity: 1;
+    transform: translateX(0)
+}
+
+

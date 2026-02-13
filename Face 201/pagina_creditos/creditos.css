@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-family: "Inter", sans-serif;
+    padding: 1rem;
+    background-color: #51abff;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-size: 1rem;
+
+}
+
+.link_header{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-size: 1rem;
+
+}
+
+.link {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: #ffffff; 
+    transition: 0.2s;
+}
+
+header a:hover {
+    color: #b58855;
+}
+
+.credito {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2)
+
+}
+
+h1 {
+    font-size: 5rem;
+    margin-top: 2rem;
+    font-family: "Inter", sans-serif;
+}
+
+h3 {
+    font-family: "Inter", sans-serif;
+}
+
+h3, section p {
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+
+.subtitulo {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-family: "Inter", sans-serif;
+}
+
+.feito_humano {
+    padding: 1.5rem;
+    font-size: 1rem;    
+
+}
