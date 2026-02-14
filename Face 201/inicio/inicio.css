@@ -10,15 +10,8 @@ html {
     scroll-behavior: smooth;
 }
 
-@keyframes aparecer_esquerda {
-    from {
-        transform: translatex(-50rem)
-    }
-
-    to {
-
-    }
-    
+body {
+    overflow-x: hidden;
 }
 
 header {
@@ -84,10 +77,6 @@ header a:hover {
     gap: 3rem;
     width: 90%;
     margin: 3rem auto;
-}
-
-.face_baixo {
-    margin-right: rem;
 }
 
 .texto_face_baixo, .texto_face_cima {
@@ -177,9 +166,11 @@ header a:hover {
     width: 80%;
     margin: 0 auto;
     display: flex;
-    justify-content: between;
+    justify-content: space-between;
+    align-items: center;
     gap: 2rem;
     margin-bottom: 5rem;
+    margin-top: 3rem;
 }
 
 .turma_texto {
@@ -204,8 +195,9 @@ header a:hover {
 
 .patrocinio1 img, .patrocinio2 img {
 
-    width: 20rem;
+    width: 16rem;
     padding: 1rem;
+
 }
 
 .patrocinio1, .patrocinio2 {
@@ -213,7 +205,8 @@ header a:hover {
     width: 80%;
     margin: 0 auto;
     display: flex;
-    
+    justify-content: center;
+    flex-wrap: wrap;
 
 }
 
@@ -236,7 +229,7 @@ footer {
 footer .insta {
 
     text-decoration: none;
-    margin-left: 74rem;
+    white-space: nowrap;
 
 }
 
