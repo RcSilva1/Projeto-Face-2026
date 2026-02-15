@@ -89,7 +89,7 @@ header a:hover {
 
 }
 
-.face p, .proposito p {
+.face p, .proposito p, .turma p {
     font-size: 2rem;
     padding: 2rem;
 }
@@ -127,7 +127,7 @@ header a:hover {
 
 
 .titulo_cortico{
-    margin-left: 14.5rem;
+    margin-left: 13rem;
     margin-top: 2rem;
     font-family: "Inter", sans-serif;
 }
@@ -135,14 +135,12 @@ header a:hover {
 .img_livro {
     width: 35rem;
     margin-top: 7rem;
+    margin-left: 3.5rem;
 }
-
-
-
 
 .proposito {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 3rem;
     width: 80%;
@@ -150,47 +148,30 @@ header a:hover {
     margin-bottom: 5rem;
 }
 
-.foto_turma {
-    width: 30rem;
-}
-
 .texto_proposito {
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
-
+.turma img, .proposito img {
+    width: 30rem;
+}
 
 
 .turma {
-    width: 80%;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
+    width: 80%;
+    margin: 3rem auto;
     margin-bottom: 5rem;
-    margin-top: 3rem;
 }
 
 .turma_texto {
-    font-size: 2rem;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
-
-.turma img {
-    width: 35rem;
-}
-
-.turma p {
-    padding: 1.4rem;
-}
-
-
-
-
-
 
 
 .patrocinio1 img, .patrocinio2 img {
